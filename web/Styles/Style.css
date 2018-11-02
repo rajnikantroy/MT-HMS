@@ -1,0 +1,636 @@
+body   
+{
+    background: #ffffff;
+    font-size: .80em;
+    color: #696969;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;  
+    padding: 0px;
+    
+}
+
+a:link
+{
+    color: #000000;
+    height: 17px;
+}
+
+a:visited
+{
+    color: #D5402C;
+}
+
+a:hover
+{
+    color: #D5402C;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #D5402C;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+.BlogHeaderMenu
+{
+    font-size: 15px;
+}
+.BlogHeaderMenu a:link
+{
+    text-decoration: none
+}
+
+.BlogHeaderMenu a:visited
+{
+    color: black;
+}
+
+.BlogHeaderMenu a:active
+{
+    color: #D5402C;
+}
+
+.BlogHeaderMenu a:hover
+{
+    color: #D5402C;
+    text-decoration: none;
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+.Heading
+{
+	width:100%;
+	height:100px;
+	background-color: #efefef
+}
+.Heading-Title
+{
+	width:45%;
+	text-align: left;
+}
+.Heading-SignUp
+{
+	width:45%;
+	text-align: right;
+}
+.TableMargin
+{
+	width:5%;
+}
+.LoginOuter
+{
+	width:30%;
+	vertical-align:top;
+}
+
+
+.LoginInner
+{
+	width:100%;
+	border-spacing: 10px;
+	height: 200px;
+	background-color: #efefef;
+}
+
+.LoginInner p
+{
+    color: #D5402C;
+}
+.TextError
+{
+    border: 1px solid #D5402C;
+     margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+  width: 100%;
+  height:25px 
+}
+
+
+.TextSuccess
+{
+    border: 1px solid green;
+     margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+  width: 100%;
+  height:25px
+}
+
+.PosterWidth
+{
+	width:60%;
+	vertical-align: top;
+}
+/*.Content
+{
+	width:100%
+}
+*/
+
+
+.Content
+{
+	width:100%;
+	vertical-align: top;
+}
+
+.ContentMenu
+{
+	width:33%;
+	vertical-align: top;	
+}
+
+.ContentMenuDesign
+{
+	vertical-align: top;
+	width:100%;
+	height:40px;
+	display:none;
+	background-color:#909090;
+	color: white;
+}
+
+.ContentSpace
+{
+    width:90%
+}
+
+.ContentMenuDesign1
+{
+	vertical-align: top;
+	width:100%;
+	height:40px;
+	display:none;
+	background-color:#707070;
+	color: white;
+}
+
+.ContentMenuDesign2
+{
+	vertical-align: top;
+	width:100%;
+	height:40px;
+	display:none;
+	background-color:#505050;
+	color: white;
+}
+
+.ContentMenuDesign3
+{
+	vertical-align: top;
+	width:100%;
+	height:40px;
+	display:none;
+	background-color:#303030;
+	color: white;
+}
+
+
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+  width: 100%;
+  height:25px  
+}
+
+
+input[type='checkbox']{width:20px}
+/*input[type='submit']:hover { cursor:pointer; background:green; color:white;}*/
+
+
+
+input[type='submit']{ color:white; border:1px solid #3079ed; background:#D5402C; border-radius:3px; text-align:center; display:block; width:auto; height:30px; padding:0 15px;  line-height:30px; font-size:16px; }
+/*input[type='submit']:hover { cursor:pointer; background:green; color:white;}*/
+
+
+
+[title~=Close]{ color:white; border:0px solid;background:#e2e2e2; border-radius:3px; text-align:center; display:block; width:auto; height:30px; padding:0 15px;  line-height:30px; font-size:16px; }
+[title~=Close]:hover { cursor:pointer; background:red; color:white;}
+
+
+
+.Bold-Text
+{
+	font-size:small;
+	color: black;
+	font-weight: bold;
+}
+.footer
+{
+	width:100%;
+	border-top:1px solid #e2e2e2; 
+}
+
+
+.FooterMenu
+{
+	width:10%;
+	font-size: small;
+	text-align: center;
+}
+
+/*
+#HostelMenu , #HostelMenu table, #HostelMenu td
+{
+    width:170px;float:left;margin-right:4px;margin-left:10px;background-color:#ffffff;
+}
+
+#HostelMenu a:link, #HostelMenu a:visited
+{
+    background-color:#F6F4F0;color:#000000;text-decoration:none;display:block;padding:2px;border:1px solid #e5e5e5;margin-top:1px;border-radius:2px;
+}
+
+#HostelMenu a:hover,#HostelMenu a:active{
+	background-color:#ffffff;
+}
+*/
+/*
+#HostelMenu a
+{
+  cursor:pointer;   color:white; text-decoration: none; text-align: center; border:1px dotted #D5402C;color:#D5402C; background:#ffffff; border-radius:3px; text-align:center; display:block; width:auto; height:30px; padding:0 15px;  line-height:30px; font-size:16px;
+}*/
+
+#HostelMenu .a
+{
+  cursor:pointer;   color:white; text-decoration: none; text-align: center; border:1px dotted #ffffff;color:#ffffff; background:#D5402C; border-radius:3px; text-align:center; display:block; width:auto; height:30px; padding:0 15px;  line-height:30px; font-size:16px;
+}
+
+.room
+{
+    margin-left:10%;
+    margin-right:10%;
+}
+.room table, .room td
+{
+    width: 100%;
+}
+
+
+
+
+
+.ComposeMessage
+{
+    margin-left:10%;
+    margin-right:10%;
+}
+.ComposeMessage table, .ComposeMessage td
+{
+    width: 100%;
+}
+
+.ComposeMessage textarea
+{
+    height: 200px;
+}
+
+
+
+.Menu
+{
+  cursor:pointer;   
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  border:1px dotted #D5402C;
+  color:#D5402C;
+  background:#ffffff;
+  border-radius:3px;
+  text-align:center;
+  display:block;
+  width:auto; 
+  line-height:30px;
+  font-size:16px;
+}
+.SubMenu
+{
+     cursor:pointer;
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  border:1px dotted #efefef;
+  color:#D5402C;
+  background:#ffffff;
+  border-radius:3px;
+  text-align:center;
+  display:block;
+  width:auto;
+  line-height:30px;
+  font-size:16px;
+padding:0px;
+display:none;
+}
+
+.SubMenu div
+{
+     cursor:pointer;
+     
+     text-decoration: none;
+     
+     border:1px dotted #EEAFA6;
+     color:grey;
+     background:#ffffff;
+     border-radius:3px;
+     text-align:center;
+     display:block;
+     width:auto;
+     height:25px;
+     padding:0 15px;
+     line-height:25px;
+     font-size:12px;
+}
+
+
+#SubMenu2 a, #SubMenu3 a, #SubMenu4 a, #SubMenu5 a, #SubMenu6 a, #SubMenu7 a{text-decoration: none;cursor: pointer;color: grey; display: block;height: 25px;line-height: 25px;font-size: 12px;width: 100%}
+
+#Feedback a{text-decoration: none;color: white}
+
+
+.SubMenu div:hover
+{
+     cursor:pointer;
+     color:white;
+     text-decoration: none;
+     text-align: center;
+     border:1px dotted #EEAFA6;
+     color:grey;
+     background:#e2e2e2;
+     border-radius:3px;
+     text-align:center;
+     display:block;
+     width:auto;
+     height:25px;
+     padding:0 15px;
+     line-height:25px;
+     font-size:12px;
+}
+
+
+.BlogMenu
+{
+    width: 100%;    
+}
+
+
+
+
+/*
+#Menu, #SubMenu
+{
+text-align:center;
+background-color:#ffffff;
+border:solid 1px red;
+}
+#SubMenu
+{
+display:none;
+}
+*/
+
+.Titlebar
+{
+    border-bottom:1px dotted #D5402C;
+    width: 100%;
+    
+    color: #D5402C;
+}
+.Titlebar h1
+{
+    color: #D5402C;
+    text-align: right;
+}
+
+.Titlebar td
+{
+    width: 50%;
+    vertical-align: bottom;
+}
+.RoomList
+{
+ width: 100%;
+}
+
+.RoomList td
+{
+ border-bottom:1px dotted #e2e2e2;
+ width:50%;
+}
+
+.RoomList tr:hover
+{
+ border-bottom:1px dotted #e2e2e2;
+ background-color: #efefef
+}
+
+
+.RoomList th
+{
+ border-bottom:1px dotted #D5402C;
+}
+
+
+.Inbox
+{
+ width: 100%;
+}
+
+.Inbox td
+{
+ border-bottom:1px dotted #e2e2e2;
+ 
+}
+
+.Inbox tr:hover
+{
+ border-bottom:1px dotted #e2e2e2;
+ background-color: #efefef
+}
+
+
+.Inbox th
+{
+ border-bottom:1px dotted #D5402C;
+}
+
+
+
+
+
+
+.InboxPage
+{
+    margin-left:10%;
+    margin-right:10%;
+}
+.InboxPage table
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*
+
+ .Devide td
+ {
+     width:50%
+}
+
+.Devide td:hover
+{
+ border-bottom:1px dotted #e2e2e2;
+ background-color: #efefef
+}
+*/
+
+.BlogContent
+{
+    width: 100%;
+   margin: 5%;
+    color: black;
+}
+
+.BlogWorkPlace
+{
+    width: 80%;
+    vertical-align: top;
+}
+
+.BlogTitle
+{
+    border-bottom: 1px dotted #e2e2e2;
+}
+
+.BlogTitle h1
+{
+    color: #D5402C;
+}
+
+
+#tabs:a:link
+{
+    color: #000000;
+    height: 17px;
+}
+
+#tabs:a:visited
+{
+    color: #D5402C;
+}
+
+#tabs:a:hover
+{
+    color: #D5402C;
+    text-decoration: none;
+}
+
+#tabs:a:active
+{
+    color: #D5402C;
+}
+.HostelManagementFooter
+{
+	width:100%;
+	height:200px;
+	background-color: #efefef
+}
+
+.Billing
+{
+    width:100%;
+    cellspacing: 5;
+    border:0px;
+}
+
+.Billing tr:hover
+{
+    background-color: #e2e2e2;
+}
+.Billing td
+{
+     border-bottom:1px dotted #e2e2e2;
+}
+.paid
+{
+    background-color: lightgreen;
+}
+.dues
+{
+    background-color: lightcoral;
+}
+
+.Transaction
+{
+    width: 100%;
+    border-bottom: 1px dotted #e2e2e2;
+}
+.Transaction
+{
+    width: 100%;
+    border: 0px;
+}
+
+.Transaction tr:hover
+{
+    width: 100%;
+    background-color: #e2e2e2;
+}
+.TransactioPage
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:  5%;
+}
+
